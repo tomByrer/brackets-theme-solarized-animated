@@ -1,7 +1,7 @@
 brackets-theme-solarized-animated
 =================================
 
-Theme for [Adobe's Brackets editor](http://brackets.io/); my own version of Solarized Light, with some animation to help with cursor-following and matching brackets.
+Theme for [Adobe's Brackets editor](http://brackets.io/).  My own version of [Solarized Light](http://ethanschoonover.com/solarized), adding animation to help match brackets & finding highlighted text when the cursor disappeared.
 
 Based on [Solarized_2014_Light Visual Studio theme](http://studiostyl.es/schemes/solarized_2014_light) by [Tony Dunsworth](http://programmeredu.wordpress.com/).  I used [MiguelCastillo/Brackets-Themes](https://github.com/MiguelCastillo/Brackets-Themes) to import.  If you use that extention, this theme will show as `Solarized_l_a` (I didn't want long CSS names).
 
