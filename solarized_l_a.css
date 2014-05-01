@@ -1,156 +1,168 @@
-/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized_l_a.css 0.1.0 (c)2014 @license MIT
-based on http://studiostyl.es/schemes/solarized_2014_light */
-.cm-s-solarized_l_a.CodeMirror {
+/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized-l-a.css 0.2.0 (c)2014 @license MIT
+		based on http://studiostyl.es/schemes/solarized-l-a */
+.cm-s-solarized-l-a.CodeMirror {
 	background: #fdf6e3;
 	color: #657b83;
 }
-.cm-s-solarized_l_a .CodeMirror-gutters {
+.cm-s-solarized-l-a .CodeMirror-gutters {
 	background-color: #ffffff;
 	border-right: 0;
 }
-.cm-s-solarized_l_a .CodeMirror-hscrollbar {
+.cm-s-solarized-l-a .CodeMirror-hscrollbar {
 	bottom: 2px;
 	border-color: #202020;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar {
+.cm-s-solarized-l-a .CodeMirror-vscrollbar {
 	right: 2px;
 	border-color: #202020;
 }
-.cm-s-solarized_l_a .CodeMirror-hscrollbar::-webkit-scrollbar {
+.cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar {
 	height: 10px;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar::-webkit-scrollbar {
+.cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar {
 	width: 10px;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar::-webkit-scrollbar-track,
-.cm-s-solarized_l_a .CodeMirror-hscrollbar::-webkit-scrollbar-track {
+.cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar-track,
+.cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar-track {
 	background: transparent;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb,
-.cm-s-solarized_l_a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb {
+.cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb,
+.cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb {
 	background: #3c3f41;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb:hover,
-.cm-s-solarized_l_a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb:hover {
-	background: #b58900;
+.cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb:hover,
+.cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb:hover {
+	background: #dd8440;
 }
-.cm-s-solarized_l_a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb:active,
-.cm-s-solarized_l_a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb:active {
+.cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb:active,
+.cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb:active {
 	background: #4bd278;
 }
-.cm-s-solarized_l_a .CodeMirror-scrollbar-filler,
-.cm-s-solarized_l_a .CodeMirror-gutter-filler {
+.cm-s-solarized-l-a .CodeMirror-scrollbar-filler,
+.cm-s-solarized-l-a .CodeMirror-gutter-filler {
 	background-color: transparent;
 }
 
-.cm-s-solarized_l_a div.CodeMirror-cursor,
-.cm-s-solarized_l_a div.CodeMirror-secondarycursor {
+.cm-s-solarized-l-a div.CodeMirror-cursor,
+.cm-s-solarized-l-a div.CodeMirror-secondarycursor {
 	border-left: 1px solid #d33682 !important;
 	border-right: 1px dotted #002B36 !important;
 	z-index: 999;
 }
 
+/* in extensions/user/dkehrig.show-whitespace/main.less from
+https://github.com/DennisKehrig/brackets-show-whitespace
+I comment-out .cm-dk-whitespace-space, then replace this: */
+.cm-dk-whitespace-tab:before {
+	background-color: #green;
+}
+.cm-dk-whitespace-leading-space:before, .cm-dk-whitespace-leading-tab:before {
+	background-color: #orange;
+}
+.cm-dk-whitespace-trailing-space:before, .cm-dk-whitespace-trailing-tab:before {
+	background-color: #blue !important;
+}
+/* These ^ styles don't work as of https://github.com/DennisKehrig/brackets-show-whitespace/issues/20 */
 
 @-webkit-keyframes pulse {
 	0.38196601125% {
-		opacity: .61803398875;
+		opacity: 0.38196601125;
 		color:#073642;
 	}
 }
 
-.cm-s-solarized_l_a .CodeMirror-matchingtag { /* top incase you want to superceed later */
+.cm-s-solarized-l-a .CodeMirror-matchingtag { /* top incase you want to superceed later */
   -webkit-animation: pulse 1.61803398875s ease-in-out 3;
 	border-bottom: 1px dashed #D33682;
 	border-radius: 1ex;
 }
 
-.cm-s-solarized_l_a .cm-keyword {
+.cm-s-solarized-l-a .cm-keyword {
 	color: #268bd2;
 }
-.cm-s-solarized_l_a .cm-number {
+.cm-s-solarized-l-a .cm-number {
 	color: #2aa198;
 }
-.cm-s-solarized_l_a .cm-variable {
+.cm-s-solarized-l-a .cm-variable {
 	color: #657b83;
 }
-.cm-s-solarized_l_a .cm-variable-2 {
+.cm-s-solarized-l-a .cm-variable-2 {
 	color: #dc322f;
 }
-.cm-s-solarized_l_a .cm-variable-3 {
+.cm-s-solarized-l-a .cm-variable-3 {
 	color: #657b83;
 }
-.cm-s-solarized_l_a .cm-property {
+.cm-s-solarized-l-a .cm-property {
 	color: #cb4b16;
 }
-.cm-s-solarized_l_a .cm-operator {
+.cm-s-solarized-l-a .cm-operator {
 	color: #000000;
 }
-.cm-s-solarized_l_a .cm-atom {
+.cm-s-solarized-l-a .cm-atom {
 	color: #268bd2;
 }
-.cm-s-solarized_l_a .cm-comment {
+.cm-s-solarized-l-a .cm-comment {
 	color: #93a1a1;
 	font-style: italic;
 }
-.cm-s-solarized_l_a .cm-comment:hover {
+.cm-s-solarized-l-a .cm-comment:hover {
 	color: #586e75;
 }
-.cm-s-solarized_l_a .cm-string {
+.cm-s-solarized-l-a .cm-string {
 	color: #2aa198;
 }
-.cm-s-solarized_l_a .cm-string-2 {
+.cm-s-solarized-l-a .cm-string-2 {
 	color: #589d4c;
 }
-.cm-s-solarized_l_a .cm-def {
+.cm-s-solarized-l-a .cm-def {
 	color: #2aa198;
 }
-.cm-s-solarized_l_a .cm-meta {
+.cm-s-solarized-l-a .cm-meta {
 	color: #586e75;
 }
-.cm-s-solarized_l_a .cm-qualifier {
+.cm-s-solarized-l-a .cm-qualifier {
 	color: #859900;
 }
-.cm-s-solarized_l_a .cm-tag {
+.cm-s-solarized-l-a .cm-tag {
 	color: #268bd2;
 }
-.cm-s-solarized_l_a .cm-builtin {
+.cm-s-solarized-l-a .cm-builtin {
 	color: #268bd2;
 }
-.cm-s-solarized_l_a .cm-attribute {
+.cm-s-solarized-l-a .cm-attribute {
 	color: #b58900;
 }
-.cm-s-solarized_l_a .cm-link {
+.cm-s-solarized-l-a .cm-link {
 	color: #6c71c4;
 }
-.cm-s-solarized_l_a .CodeMirror-selected {
-	background: #eee8d5 !important;
+.cm-s-solarized-l-a .CodeMirror-selected {
+	background: #ffff80 !important;
 	opacity: 0.3;
 }
-.cm-s-solarized_l_a .cm-matchhighlight {
+.cm-s-solarized-l-a .cm-matchhighlight {
 	background: #eee8d5;
-	color: #D33682 !important;
+	color: #586e75 !important;
 	border-radius: 0px;
 }
 
-.cm-s-solarized_l_a span.CodeMirror-searching {
-	background: rgba(225,204,140,.61803398875);/*#E1CC8C*/
+.cm-s-solarized-l-a span.CodeMirror-searching {
+	background: #4bd278;
 	color: #2c2c2c !important;
 	border-radius: 0px;
 }
-.cm-s-solarized_l_a .cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
-	background: rgba(207,210,140,.61803398875);/*#CFD28C*/
-	-webkit-animation: pulse 1.61803398875s infinite;
+.cm-s-solarized-l-a .cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
+	background: #dd8440;
 	color: #2c2c2c !important;
-	border-radius: 2px;
+	border-radius: 0px;
 }
-.cm-s-solarized_l_a span.CodeMirror-matchingbracket {
+.cm-s-solarized-l-a span.CodeMirror-matchingbracket {
 	color: #d33682 !important;
 	font-weight: bold;
 	font-style: italic;
 	backface-visibility: hidden;
 	-webkit-animation: pulse 1.61803398875s infinite;
 }
-.cm-s-solarized_l_a span.CodeMirror-nonmatchingbracket {
+.cm-s-solarized-l-a span.CodeMirror-nonmatchingbracket {
 	color: #d7dde8 !important;
 	background: #d33682;
 	backface-visibility: hidden;
@@ -168,7 +180,7 @@ based on http://studiostyl.es/schemes/solarized_2014_light */
 	background: #3c3f41;
 }
 #status-bar #status-indicators #status-language {
-	color: #b58900;
+	color: #dd8440;
 }
 #status-bar #status-indicators #status-indent {
 	color: #41cf70;
