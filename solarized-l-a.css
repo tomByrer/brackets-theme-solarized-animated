@@ -1,4 +1,4 @@
-/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized-l-a.css 0.2.1 (c)2014 @license MIT
+/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized-l-a.css 0.3.0 (c)2014 @license MIT
 		based on http://studiostyl.es/schemes/solarized-l-a */
 .cm-s-solarized-l-a.CodeMirror {
 	background: #fdf6e3;
@@ -36,7 +36,7 @@
 }
 .cm-s-solarized-l-a .CodeMirror-vscrollbar::-webkit-scrollbar-thumb:active,
 .cm-s-solarized-l-a .CodeMirror-hscrollbar::-webkit-scrollbar-thumb:active {
-	background: blue;
+	background: #4bd278;
 }
 .cm-s-solarized-l-a .CodeMirror-scrollbar-filler,
 .cm-s-solarized-l-a .CodeMirror-gutter-filler {
@@ -51,18 +51,16 @@
 }
 
 /* in extensions/user/dkehrig.show-whitespace/main.less from
-https://github.com/DennisKehrig/brackets-show-whitespace
-I comment-out .cm-dk-whitespace-space, then replace this: */
-.cm-dk-whitespace-tab:before {
-	background-color: green;
+https://github.com/DennisKehrig/brackets-show-whitespace */
+/*.cm-dk-whitespace-space:before, */.cm-dk-whitespace-tab:before {
+	background-color: #b3c2B8;
 }
 .cm-dk-whitespace-leading-space:before, .cm-dk-whitespace-leading-tab:before {
-	background-color: orange;
+	background-color: #d2e3cf;
 }
 .cm-dk-whitespace-trailing-space:before, .cm-dk-whitespace-trailing-tab:before {
-	background-color: blue !important;
+	background-color: #dc322f;
 }
-/* These ^ styles don't work as of https://github.com/DennisKehrig/brackets-show-whitespace/issues/20 */
 
 @-webkit-keyframes pulse {
 	0.38196601125% {
@@ -81,16 +79,16 @@ I comment-out .cm-dk-whitespace-space, then replace this: */
 	color: #268bd2;
 }
 .cm-s-solarized-l-a .cm-number {
-	color: #2aa198;
+	color: #6C71C4;
 }
 .cm-s-solarized-l-a .cm-variable {
-	color: #002B36;
+	color: #657B83;
 }
 .cm-s-solarized-l-a .cm-variable-2 {
-	color: #073642;
+	color: #586E75;
 }
 .cm-s-solarized-l-a .cm-variable-3 {
-	color: #586E75;
+	color: #073642;
 }
 .cm-s-solarized-l-a .cm-property {
 	color: #cb4b16;
@@ -102,14 +100,14 @@ I comment-out .cm-dk-whitespace-space, then replace this: */
 	color: #268bd2;
 }
 .cm-s-solarized-l-a .cm-comment {
-	color: #93a1a1;
+	color: #B3C2B8;
 	font-style: italic;
 }
 .cm-s-solarized-l-a .cm-comment:hover {
-	color: #586e75;
+	color: #839496;
 }
 .cm-s-solarized-l-a .cm-string {
-	color: #2aa198;
+	color: #859900;
 }
 .cm-s-solarized-l-a .cm-string-2 {
 	color: #589d4c;
@@ -136,25 +134,24 @@ I comment-out .cm-dk-whitespace-space, then replace this: */
 	color: #6c71c4;
 }
 .cm-s-solarized-l-a .CodeMirror-selected {
-	background: #ffff80 !important;
-	opacity: 0.3;
+	background: #ffff80;
+	opacity: 0.30901699437;
 }
 .cm-s-solarized-l-a .cm-matchhighlight {
-	background: #eee8d5 !important;
-	color: #586e75 !important;
-	border-radius: 0px;
+	background: rgba(38,139,210,.15450849718); /*#268BD2*/
+/*	color: #586e75 !important;*/
+	border-radius: 2px;
 }
 
 .cm-s-solarized-l-a span.CodeMirror-searching {
-	background: rgba(225,204,140,.61803398875) !important;/*#E1CC8C*/
-	color: #2c2c2c !important;
-	border-radius: 0px;
+	background: rgba(38,139,210,.15450849718); /*#268BD2*/
+	color: #073642 !important;
+	border-radius: 2px;
 }
 .cm-s-solarized-l-a .cm-matchhighlight.CodeMirror-searching.CodeMirror-selectedtext {
-	background: rgba(207,210,140,.61803398875) !important;/*#CFD28C*/
-	-webkit-animation: pulse 1.61803398875s infinite;
-	color: #2c2c2c !important;
-	border-radius: 0px;
+	background: rgba(108,113,196,.15450849718); /*#D2E3CF*/
+	color: #586E75 !important;
+	border-radius: 2px;
 }
 .cm-s-solarized-l-a span.CodeMirror-matchingbracket {
 	color: #d33682 !important;
@@ -175,16 +172,16 @@ I comment-out .cm-dk-whitespace-space, then replace this: */
 	background: #3c3f41;
 }
 #status-bar #status-info {
-	color: #f7c741;
+	color: #EEE8D5;
 }
 #status-bar #status-indicators {
 	background: #3c3f41;
 }
 #status-bar #status-indicators #status-language {
-	color: #b58900;
+	color: #268BD2;
 }
 #status-bar #status-indicators #status-indent {
-	color: #41cf70;
+	color: #268BD2;
 }
 #context-menu-bar .dropdown-menu a {
 	color: #3c3f41;
