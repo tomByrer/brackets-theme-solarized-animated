@@ -1,4 +1,4 @@
-/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized-l-a.css 0.3.0 (c)2014 @license MIT
+/*! github.com/tomByrer/brackets-theme-solarized-light-animated/solarized-l-a.css 0.3.1 (c)2014 @license MIT
 		based on http://studiostyl.es/schemes/solarized-l-a */
 .cm-s-solarized-l-a.CodeMirror {
 	background: #fdf6e3;
@@ -82,16 +82,16 @@ https://github.com/DennisKehrig/brackets-show-whitespace */
 	color: #6C71C4;
 }
 .cm-s-solarized-l-a .cm-variable {
-	color: #657B83;
+	color: #839496;
 }
 .cm-s-solarized-l-a .cm-variable-2 {
 	color: #586E75;
 }
 .cm-s-solarized-l-a .cm-variable-3 {
-	color: #073642;
+	color: #002B36;
 }
 .cm-s-solarized-l-a .cm-property {
-	color: #cb4b16;
+	color: #B58900;
 }
 .cm-s-solarized-l-a .cm-operator {
 	color: #000000;
