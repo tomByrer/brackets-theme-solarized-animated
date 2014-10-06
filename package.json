@@ -1,0 +1,14 @@
+{
+"name": "solarized-l-a",
+"title": "Solarized Light Animated",
+"description": "Fork of Solarized Light, with some animation to help with cursor-following and matching brackets, brighter highlighting, etc.",
+"homepage": "https://github.com/tomByrer/brackets-theme-solarized-animated",
+"version": "0.3.1",
+"author": "Tom Byrer <tombyrer@gmail.com> (https://github.com/tomByrer)",
+"license": "MIT",
+"theme": {
+  "file": "solarized-l-a.css",
+  "dark": false
+},
+"keywords": ["theme", "Solarized", "Light", "Animated"]
+}
