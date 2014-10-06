@@ -1,5 +1,5 @@
-brackets-theme-solarized-animated
-=================================
+Solarized Light Animated
+====
 
 Theme for [Adobe's Brackets editor](http://brackets.io/).  My own version of [Solarized Light](http://ethanschoonover.com/solarized), adding animation to help match brackets & finding highlighted text when the cursor disappeared.
 
@@ -15,16 +15,5 @@ I use Brackets mostly to hack on HTML, CSS, & JavaScript, so it may not be optim
 
 ## Changelog
 
-### 0.3.x
-
-fixes & tweaks
-
-### 0.2.x
-
-rename namespace & file to `solarized-l-a.css`
-add [show-whitespace](https://github.com/DennisKehrig/brackets-show-whitespace)
-
-### 0.1.0
-
-Uploaded
-
+0.3.x: fixes & tweaks<br>
+0.2.x: rename namespace & file to `solarized-l-a.css`, add [show-whitespace](https://github.com/DennisKehrig/brackets-show-whitespace)
